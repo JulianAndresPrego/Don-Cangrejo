@@ -139,3 +139,6 @@ button:focus {
     color: #CEC4C4;
 }
 
+.btn:hover, .btn-large:hover {
+    background-color: rgba(80, 5, 5, 1);
+}
