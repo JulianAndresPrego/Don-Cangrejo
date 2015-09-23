@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <!--Import materialize.css-->
+  <!-- Compiled and minified CSS -->
+
+  <meta charset='utf-8'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+  <link rel="stylesheet" href="b.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!--Import jQuery before materialize.js-->
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>      
+
+  <!-- Compiled and minified JavaScript -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+</head>
+<style type="text/css"></style>
+<body>
+  <!-- NAVBAR DE INICIO DE SESION Y DE REGISTRACION -->
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+         <a href="#!" class="brand-logo"> <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xft1/v/t1.0-1/p50x50/11811302_952614484779571_3558328886109255876_n.jpg?oh=e4d98857dd471d1f05766453b8ef8c74&oe=567E81ED&__gda__=1451319033_669d0c206e603037d3d10eadc7084abf"> <!-- random image -->La pizzeria de Don Cangrejo</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="iniciar.html">Iniciar Sesion</a></li>
+          <li><a href="registracion.html">Registrarse</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- Dropdown Structure -->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="fotos.html">Fotos</a></li>
+    <li><a href="direcciones.html">Direcciones</a></li>
+    <li class="divider"></li>
+  </ul>
+  <nav>
+    <div class="nav-wrapper">
+      <ul class="left hide-on-med-and-down">
+        <li><a href="PIZZERIA.html">Home</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Locales<i class="material-icons left"></i></a></li>
+        <ul class="right hide-on-med-and-down"><a></a></ul>
+    </div>
+  </nav>
+
+  <ul class="collapsible" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header"><i class="material-icons"></i>PIZZAS</div>
+      <div class="collapsible-body"><p>
+        <table class="bordered">
+        <thead>
+          <tr>
+              <th data-field="name">Pizza</th>
+              <th data-field="price">Precio</th>
+              <th data-field="option">Elegir</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Muzzarella(Salsa de tomate, muzzarella, aceitunas, orégano y aceite de oliva)</td>
+            <td>$40</td>
+            <td>
+            <form action="#">
+             <p>
+                      <input type="checkbox" id="test1" />
+                      <label for="test1"></label>
+            </p>
+            </form>
+            </td>
+          </tr>
+          <tr>
+            <td>Muzzarella con Jamón(Salsa de tomate, muzzarella, jamón, aceitunas y orégano)</td>
+            <td>$50</td>
+            <td>
+            <form action="#">
+             <p>
+                      <input type="checkbox" id="test2" />
+                      <label for="test2"></label>
+            </p>
+            </td>
+          </tr>
+          <tr>
+            <td>Napolitana(Salsa de tomate, muzzarella, tomate natural, ajo, orégano y parmesano)</td>
+            <td>$60</td>
+            <td>
+              <form action="#">
+             <p>
+                      <input type="checkbox" id="test3" />
+                      <label for="test3"></label>
+            </p>
+            </td>
+          </tr>
+          <tr>
+            <td>Especial de la casa(Salsa de tomate, muzzarella, huevo frito, verdeo o albahaca, aceitunas negras, orégano y aceite de oliva)</td>
+            <td>$100</td>
+            <td>
+              <form action="#">
+             <p>
+                      <input type="checkbox" id="test4" />
+                      <label for="test4"></label>
+            </p>
+            </td>
+          </tr>
+          <tr>
+            <td>Anchoas(Salsa de tomate, morrones, anchoas, aceitunas y aceite de oliva)</td>
+            <td>$75</td>
+            <td>
+              <form action="#">
+             <p>
+                      <input type="checkbox" id="test5" />
+                      <label for="test5"></label>
+            </p>
+            </td>
+          </tr>
+          <tr>
+            <td>Tropicana(Salsa de tomate, muzzarella, jamón, ananá y morrones)</td>
+            <td>$70</td>
+            <td>
+              <form action="#">
+             <p>
+                      <input type="checkbox" id="test6" />
+                      <label for="test6"></label>
+            </p>
+            </td>
+          </tr>
+          <tr>
+            <td>Roquefort(Salsa de tomate, muzzarella, roquefort, orégano y aceitunas)</td>
+            <td>$70</td>
+            <td>
+              <form action="#">
+             <p>
+                      <input type="checkbox" id="test7" />
+                      <label for="test7"></label>
+            </p>
+            </td>
+          </tr>
+          <tr>
+            <td>Jamon y palmitos(Salsa de tomate, muzzarella,jamon, palmitos, huevo duro, salsa golf, aceitunas y orégano)</td>
+            <td>$80</td>
+            <td>
+              <form action="#">
+             <p>
+                      <input type="checkbox" id="test8" />
+                      <label for="test8"></label>
+            </p>
+            </td>
+          </tr>
+          <tr>
+            <td>Calabresa(Salsa de tomate, longaniza, calabresa, muzzarella y aceitunas)</td>
+            <td>$65</td>
+            <td>
+              <form action="#">
+             <p>
+                      <input type="checkbox" id="test9" />
+                      <label for="test9"></label>
+            </p>
+            </td>
+          </tr>
+          <tr>
+            <td>Muzzarella con Huevo(Salsa de tomate, muzzarella, Huevo frito, orégano y aceite de oliva)</td>
+            <td>$65</td>
+            <td>
+              <form action="#">
+             <p>
+                      <input type="checkbox" id="test10" />
+                      <label for="test10"></label>
+            </p>
+            </td>
+          </tr>
+          <tr>
+            <td>4 quesos(Salsa de tomate, muzzarella, roquefort, provolone, parmesano)</td>
+            <td>$65</td>
+            <td>
+              <form action="#">
+             <p>
+                      <input type="checkbox" id="test11" />
+                      <label for="test11"></label>
+            </p>
+            </td>
+          </tr>
+          <tr>
+            <td>Pollo(Salsa portuguesa, pollo fresco, coñac, orégano y aceitunas)</td>
+            <td>$90</td>
+            <td>
+              <form action="#">
+             <p>
+                      <input type="checkbox" id="test12" />
+                      <label for="test12"></label>
+            </p>
+            </td>
+          </tr>
+          <tr>
+            <td>Rucula y Crudo (Salsa de tomate, muzzarella, jamón crudo español, rúcula, aceite de oliva)
+            </td>
+            <td>$85</td>
+            <td>
+              <form action="#">
+             <p>
+                      <input type="checkbox" id="test13" />
+                      <label for="test13"></label>
+            </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </p></div>
+    </li>
+
+    <li>
+      <div class="collapsible-header"><i class="material-icons"></i>PIZZAS EN CONO</div>
+      <div class="collapsible-body"><p>
+         <table class="bordered">
+        <thead>
+          <tr>
+              <th data-field="name">Pizza</th>
+              <th data-field="price">Precio</th>
+              <th data-field="option">Elegir</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Muzzarella(Salsa de tomate, muzzarella, aceitunas, orégano y aceite de oliva)</td>
+            <td>$20</td>
+            <td>
+            <form action="#">
+             <p>
+                      <input type="checkbox" id="test101" />
+                      <label for="test101"></label>
+            </p>
+            </form>
+            </td>
+          </tr>
+          <tr>
+            <td>Muzzarella con Jamón(Salsa de tomate, muzzarella, jamón, aceitunas y orégano)</td>
+            <td>$25</td>
+            <td>
+            <form action="#">
+             <p>
+                      <input type="checkbox" id="test102" />
+                      <label for="test102"></label>
+            </p>
+            </td>
+          </tr>
+          <tr>
+            <td>Napolitana(Salsa de tomate, muzzarella, tomate natural, ajo, orégano y parmesano)</td>
+            <td>$30</td>
+            <td>
+              <form action="#">
+             <p>
+                      <input type="checkbox" id="test103" />
+                      <label for="test103"></label>
+            </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </p></div>
+    </li>
+
+    <li>
+      <div class="collapsible-header"><i class="material-icons"></i>EMPANADAS(POR 3 UNIDADES)</div>
+      <div class="collapsible-body"><p>
+        <table class="bordered">
+        <thead>
+          <tr>
+              <th data-field="name">Empanada</th>
+              <th data-field="price">Precio</th>
+              <th data-field="option">Elegir</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Carne</td>
+            <td>$30</td>
+            <td>
+            <form action="#">
+             <p>
+                      <input type="checkbox" id="test201" />
+                      <label for="test201"></label>
+            </p>
+            </form>
+            </td>
+          </tr>
+          <tr>
+            <td>Carne cortada a cuchillo</td>
+            <td>$30</td>
+            <td>
+            <form action="#">
+             <p>
+                      <input type="checkbox" id="test202" />
+                      <label for="test202"></label>
+            </p>
+            </form>
+            </td>
+          </tr>
+          <tr>
+            <td>Carne Picante</td>
+            <td>$30</td>
+            <td>
+            <form action="#">
+             <p>
+                      <input type="checkbox" id="test203" />
+                      <label for="test203"></label>
+            </p>
+            </form>
+            </td>
+          </tr>
+          <tr>
+            <td>Carne Dulce</td>
+            <td>$30</td>
+            <td>
+            <form action="#">
+             <p>
+                      <input type="checkbox" id="test204" />
+                      <label for="test204"></label>
+            </p>
+            </form>
+            </td>
+          </tr>
+          <tr>
+            <td>Humita</td>
+            <td>$21</td>
+            <td>
+            <form action="#">
+             <p>
+                      <input type="checkbox" id="test205" />
+                      <label for="test205"></label>
+            </p>
+            </td>
+          </tr>
+          <tr>
+            <td>Pollo</td>
+            <td>$24</td>
+            <td>
+              <form action="#">
+             <p>
+                      <input type="checkbox" id="test206" />
+                      <label for="test206"></label>
+            </p>
+            </td>
+          </tr>
+           <tr>
+            <td>4 quesos</td>
+            <td>$30</td>
+            <td>
+            <form action="#">
+             <p>
+                      <input type="checkbox" id="test207" />
+                      <label for="test207"></label>
+            </p>
+            </form>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </p>
+      </p></div>
+    </li>
+
+    <li>
+      <div class="collapsible-header"><i class="material-icons"></i>POSTRES</div>
+      <div class="collapsible-body"><p>
+      <table class="bordered">
+        <thead>
+          <tr>
+              <th data-field="name">Postre</th>
+              <th data-field="price">Precio</th>
+              <th data-field="option">Elegir</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+           <td>Flan Casero</td>
+            <td>$30</td>
+            <td>
+            <form action="#">
+             <p>
+                      <input type="checkbox" id="test301" />
+                      <label for="test301"></label>
+            </p>
+            </form>
+            </td>
+          </tr>
+          <tr>
+           <td>Budin de Pan</td>
+            <td>$30</td>
+            <td>
+            <form action="#">
+             <p>
+                      <input type="checkbox" id="test302" />
+                      <label for="test302"></label>
+            </p>
+            </form>
+            </td>
+          </tr>
+          <tr>
+           <td>Cheesecake(Gusto a eleccion)</td>
+            <td>$30</td>
+            <td>
+            <form action="#">
+             <p>
+                      <input type="checkbox" id="test303" />
+                      <label for="test303"></label>
+            </p>
+            </form>
+            </td>
+          </tr>
+          <tr>
+           <td>Ensalada de frutas</td>
+            <td>$30</td>
+            <td>
+            <form action="#">
+             <p>
+                      <input type="checkbox" id="test304" />
+                      <label for="test304"></label>
+            </p>
+            </form>
+            </td>
+          </tr>
+          <tr>
+           <td>Postre MilHojas</td>
+            <td>$30</td>
+            <td>
+            <form action="#">
+             <p>
+                      <input type="checkbox" id="test305" />
+                      <label for="test305"></label>
+            </p>
+            </form>
+            </td>
+          </tr>
+          <tr>
+           <td>Postre de la casa</td>
+            <td>$30</td>
+            <td>
+            <form action="#">
+             <p>
+                      <input type="checkbox" id="test306" />
+                      <label for="test306"></label>
+            </p>
+            </form>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </p></div>
+    </li>
+    
+    <li>
+      <div class="collapsible-header"><i class="material-icons"></i>BEBIDAS</div>
+      <div class="collapsible-body"><p>
+      <table class="bordered">
+        <thead>
+          <tr>
+              <th data-field="name">Bebida</th>
+              <th data-field="price">Precio</th>
+              <th data-field="option">Elegir</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+           <td>Cerveza</td>
+            <td>$35</td>
+            <td>
+            <form action="#">
+             <p>
+                      <input type="checkbox" id="test401" />
+                      <label for="test401"></label>
+            </p>
+            </form>
+            </td>
+          </tr>
+          <tr>
+           <td>Gaseosa(Linea Coca-cola)</td>
+            <td>$20</td>
+            <td>
+            <form action="#">
+             <p>
+                      <input type="checkbox" id="test402" />
+                      <label for="test402"></label>
+            </p>
+            </form>
+            </td>
+          </tr>
+          <tr>
+           <td>Fernet con Coca</td>
+            <td>$30</td>
+            <td>
+            <form action="#">
+             <p>
+                      <input type="checkbox" id="test403" />
+                      <label for="test403"></label>
+            </p>
+            </form>
+            </td>
+          </tr>
+          <tr>
+           <td>Gancia con Sprite</td>
+            <td>$30</td>
+            <td>
+            <form action="#">
+             <p>
+                      <input type="checkbox" id="test404" />
+                      <label for="test404"></label>
+            </p>
+            </form>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </p></div>
+    </li>
+  </ul>
+
+  <div align=center>
+      <button class="btn waves-effect" type="submit" name="action"><i class="large material-icons">shopping_cart</i></button>
+  </div>
+  <br>
+  <!-- FOOTER DE LA EMPRESA -->
+</body>
+
+<!-- I got these buttons from simplesharebuttons.com -->
+<div id="share-buttons" align=center>
+  <!-- Facebook -->
+  <a href="https://www.facebook.com/pizzadedoncangrejo123?fref=ts" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+  </a>
+  <!-- Google+ -->
+  <a href="https://plus.google.com/u/0/109798292158804007812/about" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+  </a>
+  <!-- Tumblr-->
+  <a href="http://doncangrejo.tumblr.com/" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/tumblr.png" alt="Tumblr" />
+  </a>
+  <!-- Twitter -->
+  <a href="https://twitter.com/DonCangri" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+  </a>
+</div>
+
+<footer><a target="_blank"></a>© 2015 Todos los derechos reservados </footer>
+<script type="text/javascript">
+      $(document).ready(function(){
+            $('.slider').slider({full_width: true});
+      });
+</script>
+
+</html>

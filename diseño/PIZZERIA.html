@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <!--Import materialize.css-->
+  <!-- Compiled and minified CSS -->
+
+  <meta charset='utf-8'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="a.css">
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>      
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />  
+
+</head>
+<style type="text/css"></style>
+
+<body>
+  <!-- NAVBAR DE INICIO DE SESION Y DE REGISTRACION -->
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo"> <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xft1/v/t1.0-1/p50x50/11811302_952614484779571_3558328886109255876_n.jpg?oh=e4d98857dd471d1f05766453b8ef8c74&oe=567E81ED&__gda__=1451319033_669d0c206e603037d3d10eadc7084abf"> <!-- random image -->La pizzeria de Don Cangrejo</a>
+        <ul class="right hide-on-med-and-down">        
+          <li><a href="iniciar.html">Iniciar Sesion</a></li>
+          <li><a href="registracion.html">Registrarse</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Dropdown Structure -->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="fotos.html">Fotos</a></li>
+    <li><a href="direcciones.html">Direcciones</a></li>
+    <li class="divider"></li>
+  </ul>
+  <nav>
+    <div class="nav-wrapper">
+      <ul class="hide-on-med-and-down">
+        <li><a href="PIZZERIA.html">Home</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Locales<i class="material-icons left"></i></a></li>
+        <ul class="right hide-on-med-and-down"><a></a></ul>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- SLIDER -->
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="http://pizzariascuritiba.com.br/wp-content/files_mf/1403566021pizza_margherita_31.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3 class="letraazul">PIZZAS</h3>
+          <h5 class="light grey-text text-lighten-15"></h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://1.bp.blogspot.com/-r6E6bHzoGdY/UB0mR4SOQhI/AAAAAAAAB54/oIBKfjv_-hQ/s1600/portada+cucuruchos+pizza.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3 class="letraazul">PIZZA EN CONO</h3>
+          <h5 class="light grey-text text-lighten-15"></h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://mla-s2-p.mlstatic.com/venta-y-distribucion-de-tapas-para-empanadas-y-pascualinas-2746-MLA4812776774_082013-F.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3 class="letraazul">EMPANADAS</h3>
+          <h5 class="light grey-text text-lighten-15"></h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://postresrapidos.net/wp-content/uploads/2014/06/consejos-para-preparar-postres.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3 class="letraazul">POSTRES</h3>
+          <h5 class="light grey-text text-lighten-15"></h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://g.cdn.ecn.cl/cocina/files/2015/05/pappas-grill-tragos.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3 class="letraazul">BEBIDAS!</h3>
+          <h5 class="light grey-text text-lighten-15"></h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+     <div class="row" name=a>
+      <div class="col s50 m100">
+        <div class="card-panel">
+          <span class="white-text">
+          Somos Pizzería Don Cangrejo, la casa de pizzas, empanadas y postres que atiende a su clientela saboreando exquisitas pizzas a la piedra, que son elaboradas artesanalmente bajo controles de calidad.<br>
+          La masa es preparada en el día y en el momento del pedido es elaborada y condimentada, con ingredientes frescos y cocinada en horno a leña.<br>
+          Y como siempre acompañe las pizzas con nuestra carta de exquisitos tragos.<br>
+          Como no somos los unicos, decidimos ser los mejores!!<br>
+          La pizza de don cangrejo para ti para mi , dududu pizza dududu pizza</span>
+        </div>
+      </div>
+      </div>
+
+  <!-- Modal Trigger -->
+  <div align=center>
+  <a class="waves-effect waves-light btn modal-trigger" href="#modal1" >Enviar mail de consulta</a>
+    </div>
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal bottom-sheet" >
+    <div class="modal-content">
+        <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s11">
+            <input id="input_text" type="text" length="20">
+            <label for="input_text">ASUNTO</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s11">
+            <textarea id="textarea1" class="materialize-textarea" length="250"></textarea>
+            <label for="textarea1">TEXT</label>
+          </div>
+        </div>
+      </form>
+    </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat" id="1">ACEPTAR</a>
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat" id="2">CANCELAR</a>
+    </div>
+  </div>
+
+<br><br>
+  <!-- I got these buttons from simplesharebuttons.com -->
+<div id="share-buttons" align=center>
+  <!-- Facebook -->
+  <a href="https://www.facebook.com/pizzadedoncangrejo123?fref=ts" target="_blank">
+    <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+  </a>
+  <!-- Google+ -->
+  <a href="https://plus.google.com/u/0/109798292158804007812/about" target="_blank">
+    <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+  </a>
+  <!-- Tumblr-->
+  <a href="http://doncangrejo.tumblr.com/" target="_blank">
+    <img src="https://simplesharebuttons.com/images/somacro/tumblr.png" alt="Tumblr" />
+  </a>
+  <!-- Twitter -->
+  <a href="https://twitter.com/DonCangri" target="_blank">
+    <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+  </a>
+</div>
+
+<embed SRC="E:/diseño/track3.mp3" autostart="true" WIDTH="300" HEIGHT="0">
+
+<!-- FOOTER DE LA EMPRESA -->
+</body>
+  <footer><a target="_blank"></a>© 2015 Todos los derechos reservados </footer>
+  <script type="text/javascript">
+
+      $(document).ready(function(){
+            $('.slider').slider({full_width: true});
+      });
+
+      $(document).ready(function(){
+      // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+      $('.modal-trigger').leanModal();
+       });
+  </script>
+</html>

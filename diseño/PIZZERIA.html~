@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <!--Import materialize.css-->
+  <!-- Compiled and minified CSS -->
+
+  <meta charset='utf-8'>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+
+  <link rel="stylesheet" href="indicators.css">
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>      
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+    
+
+</head>
+  <style type="text/css">
+  </style>
+
+  <body>
+
+  <!-- NAVBAR DE INICIO DE SESION Y DE REGISTRACION -->
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">PIZZERIA</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="iniciar.html">Iniciar Sesion</a></li>
+          <li><a href="registracion.html">Registrarse</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Dropdown Structure -->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="fotos.html">Fotos</a></li>
+    <li><a href="direcciones.html">Direcciones</a></li>
+    <li class="divider"></li>
+  </ul>
+  <nav>
+    <div class="nav-wrapper">
+      <ul class="left hide-on-med-and-down">
+        <li><a href="PIZZERIA.html">Home</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Locales<i class="material-icons left"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- SLIDER -->
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="http://pizzariascuritiba.com.br/wp-content/files_mf/1403566021pizza_margherita_31.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3 class="letraazul">PIZZAS</h3>
+          <h5 class="light grey-text text-lighten-15"></h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://1.bp.blogspot.com/-r6E6bHzoGdY/UB0mR4SOQhI/AAAAAAAAB54/oIBKfjv_-hQ/s1600/portada+cucuruchos+pizza.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3 class="letraazul">PIZZA EN CONO</h3>
+          <h5 class="light grey-text text-lighten-15"></h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://mla-s2-p.mlstatic.com/venta-y-distribucion-de-tapas-para-empanadas-y-pascualinas-2746-MLA4812776774_082013-F.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3 class="letraazul">EMPANADAS</h3>
+          <h5 class="light grey-text text-lighten-15"></h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://postresrapidos.net/wp-content/uploads/2014/06/consejos-para-preparar-postres.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3 class="letraazul">POSTRES</h3>
+          <h5 class="light grey-text text-lighten-15"></h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://g.cdn.ecn.cl/cocina/files/2015/05/pappas-grill-tragos.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3 class="letraazul">BEBIDAS!</h3>
+          <h5 class="light grey-text text-lighten-15"></h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+     <div class="row">
+      <div class="col s50 m100">
+        <div class="card-panel">
+          <span class="white-text">ACLARACION: La pizza de don cangrejo para ti para mi , dududu pizza dududu pizza</span>
+        </div>
+      </div>
+    </div>
+
+<br><br><br><br>
+  
+  <!-- FOOTER DE LA EMPRESA -->
+  </body>
+          <footer><a target="_blank"></a>© 2015 Todos los derechos reservados </footer>
+  <script type="text/javascript">
+
+      $(document).ready(function(){
+            $('.slider').slider({full_width: true});
+      });
+
+  </script>
+
+</html>
